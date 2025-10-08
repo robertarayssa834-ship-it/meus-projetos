@@ -112,3 +112,102 @@ body{
     justify-content: center;
     padding: 80px 0;
 }
+ .projetos h2{
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+ }
+ .projetos p{
+    margin-bottom: 40px;
+    font-style: italic ;
+ }
+ .projetos-lista{
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+ }
+ .projetos img{
+    width: 22%;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    opacity: 0.8;
+    border-radius: 8%;
+    transition: 0.9s;
+ }
+ .projetos img:hover{
+    opacity: 1;
+ }
+ .action{
+    background-color: #000;
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 18px;
+    cursor: pointer;
+ }
+
+ footer{
+    background-color: #a4a4a4;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* RESPONSIVIADE */
+
+ @MEDIA(max-width: 1050px){
+    /* MAIN*/
+    .main h1{
+        font-size: 45px;
+    }
+    .main P{
+        font-size: 18px;
+    }
+    .main{
+        background-size: cover;
+    }
+    /* MAIN*/
+    /*SOBRE*/
+
+    .sobre{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .sobre div{
+        max-width: 80px;
+    }
+    .sobre div h2{
+        font-size: 40px;
+    }
+    .sobre img{
+    max-width: 80px;
+    padding-top: 18px;
+    }
+
+ /* SOBRE*/
+ /*PROJETOS*/
+
+ .projetos img{
+    width: 27.5%;
+ }
+ /*PROJETOS*/
+ /* FOOTER*/
+ footer{
+    flex-direction: column;
+    padding: 0 20%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+ }
+
+
+  }
